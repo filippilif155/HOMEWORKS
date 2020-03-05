@@ -1,0 +1,104 @@
+@media screen and (min-width: 480px){
+
+header{
+    position: relative;
+}
+header img{
+    padding-right: 45vw;
+    height: 20px;
+}
+.feat-menu{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 3px;
+    left: 62vw;
+}
+.feat-menu > a{
+    width: 5%;
+}
+.feat-menu > a:hover{
+    background-color: rgba(128, 128, 128, 0.096);
+    border-radius: 2.6vw;
+}
+
+.feat-menu > a > img{
+    height: 2vw;
+    padding-left: 27%;
+}
+nav{
+    flex-direction: row;
+}
+.top-sell{
+    background-image: url(images/header-img.png);
+    height: 37.5vw;
+}
+.top-sell-txt{
+    text-align: left;
+    margin-left: 8%;
+    padding-top: 8vw;
+}
+.top-sell-txt > h1{
+    font-size: 5vw;
+    margin-bottom: 10px;
+}
+.top-sell-txt > p{
+    font-size: 1vw;
+    nargin-bottom: 10px;
+}
+.top-sell-txt > button{
+    margin-top: 0;
+}
+
+
+}
+@media screen and (min-width: 900px){
+    body{
+        display: block;
+        background-image: none;
+    }
+    header{
+        height: 6vw;
+    }
+    header > img{
+        padding-top: 1.5%;
+        height: 3vw;
+        padding-right: 60vw;
+        
+    }
+    .feat-menu{
+        top: 35%;
+        left: 69vw;
+    }
+    .feat-menu > a > img{
+        height: 1vw;
+        padding-left: 40%;
+        padding-top: 11%;
+    }
+    nav{
+        width: 30%;
+        height:5vw;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        right: 32vw;
+        font-size: 1vw;
+
+    }
+    .bar-1 > a{
+        line-height: 6vw;
+        color: rgba(44, 19, 19, 0.651);
+        height: 6vw;
+    }
+    .bar-1 > a:hover{
+        background-color: #d7edf6;
+        border-bottom: none;
+    }
+    #home{
+    box-sizing: border-box;
+    border-bottom: 3px solid #0cb9ff;
+}
+    .top-sell{
+        border: none;
+    }
+}
