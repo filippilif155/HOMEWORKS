@@ -5,7 +5,7 @@ body{
     font-size: 20px;
     background-image: linear-gradient(0deg, #7ddbffcc, #7ddbff45);    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
-    height: 2000px;
+    height: 3000px;
     display: flex;
     flex-direction: column;
     overflow-x:hidden;
@@ -74,20 +74,114 @@ nav{
     margin-top: 0;
     font-weight: 400;
 }
+button{
+    background-color: hsl(197, 97%, 50%);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
 .top-sell-txt > button{
     width: 18vw;
     height: 5vw;
     color: white;
-    background-color: #17bcff;
-    border: none;
     margin-top: 53vw;
     font-size: 1.6vw;
     border-radius: 5px;
-    outline: none;
 
 }
 a{
    transition: all .6s; 
+}
+.feat-cat{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-weight: 400;
+    font-size: 4.7vw;
+}
+.feat-cat  img{
+    width: 40vw;
+    height: 44vw;
+}
+.feat-cat > div > div:nth-child(n+4){
+    display: none;
+}
+.first-feat-cat{
+    position: relative;
+}
+.first-feat-cat  img{
+    opacity: 0.4;
+} 
+.button{
+    height: 12vw;
+    width: 40vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 5vw;
+}
+.f-cat-body{
+    background-color: rgba(128, 128, 128, 0.2);
+    margin-top: 3vw;
+    width: 40vw;
+}
+.feat-cat > img{
+    display: none;
+}
+.f-cat-body > h3{
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: 4vw;
+}
+.f-cat-body > p{
+    font-weight: 400;
+    text-align: center;
+    font-size: 3vw;
+    opacity: 0.5;
+    margin-top: 0px;
+}
+.feat-cat1{
+    width: 100%;
+    padding-top: 17vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feat-cat1  img{
+    width: 40vw;
+    height: 44vw;
+}
+.best-price{
+    position: relative;
+    padding-left: 18.5vw;
+}
+.best-price > img{
+    width: 60vw;
+}
+.button1{
+    position: absolute;
+    width: 30vw;
+    height: 10vw;
+    top: 4vw;
+    left: 47vw;
+    font-size: 4vw;
+}
+.best-price > h3{
+    position: absolute;
+    font-size: 4vw;
+    font-weight: 800;
+    text-align: left;
+    top: 0;
+    left: 19vw;
+}
+.feat-cat1 div:nth-child(n+2){
+    display: none;
 }
 @media screen and (max-width: 330px){
     body{
