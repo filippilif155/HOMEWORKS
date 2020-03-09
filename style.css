@@ -607,6 +607,7 @@
     }
     input[value="SUBSCRIBE"]{
         font-size: 2vw;
+        border: 1px solid #04b5fb;
     }
     
     form > img{

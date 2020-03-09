@@ -204,6 +204,7 @@ h2{
 .feat-cat3{
     width: 100%;
     padding-left: 8vw;
+    box-sizing: border-box;
 }
 .arrow1{
     display: none;
