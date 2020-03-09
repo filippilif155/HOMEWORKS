@@ -356,7 +356,7 @@
     }
     
     .product:nth-child(n+3){
-        display: block;
+        display: block; 
     }
     .feat-cat2 > .new, .feat-cat2 > .best, .feat-cat2 > .sale {
         display: none;
