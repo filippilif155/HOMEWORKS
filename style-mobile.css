@@ -319,6 +319,38 @@ li a{
 form > img {
     display: none;
 }
+main{
+    margin: 2vw 1vw;
+}
+.cart{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.cart > img{
+    width: 15%;
+    top: 0;
+    position: absolute;
+    animation: cart 10s ease infinite;
+}
+@keyframes cart{
+    0%{  
+        left: 0;
+    }
+    50%{
+        left: 85%;
+        transform: rotateY(180deg);
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+
+
+
+
+
+}
 @media screen and (max-width: 330px){
     body{
         font-size: 10px;
