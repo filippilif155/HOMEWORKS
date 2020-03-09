@@ -299,6 +299,8 @@ footer{
 }
 .bazar{
     font-size: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
 }
 .bazar > img{
     padding-left: 50%;
