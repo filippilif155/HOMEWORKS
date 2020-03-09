@@ -204,7 +204,7 @@ h2{
     width: 100%;
     padding-left: 8vw;
 }
-.arrow{
+.arrow1{
     display: none;
 }
 
@@ -215,7 +215,110 @@ h2{
 .blog > img{
     width: 80vw;
 }
-
+.feat-cat4{
+    box-sizing: border-box;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    width: 100%;
+}
+.feat-cat4 > h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 4.7vw;
+}
+.arrow2{
+    display: none;
+}
+.feat-cat4-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3vw;
+    
+}
+.feat-cat4-body > a > img{
+    width: 100%;
+    height: auto;
+}
+.form{
+    width: 100;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    text-align: center;
+}
+.form > h3{
+    font-weight: 400;
+    font-size: 4.7vw;
+    
+}
+.form > p{
+    font-size: 3.55vw;
+    color: rgba(0, 0, 0, 0.541);
+}
+form{
+    width: 100%;
+    height: 12vw;
+    display: inline-block;
+    height: fit-content;
+    position: relative;
+}
+input[type="email"]{
+    display: block;
+    width: 60%;
+    height: 8vw;
+    font-size: 4vw;
+    outline: none;
+    color: hsl(197, 97%, 50%);
+}
+input[value="SUBSCRIBE"]{
+    display: block;
+    width: 40%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    font-size: 4vw;
+    left: 59%;
+    color: white;
+    background-color: hsl(197, 97%, 50%);
+    outline: none;
+}
+.line{
+    margin-top: 5vw;
+    background-color: white;
+    width: 100%;
+    height: 0.5vw;
+}
+footer{
+    color: gray;
+    background-color: rgb(2, 2, 26);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2vw 2vw;
+    justify-items: center;
+}
+.bazar{
+    font-size: 1vw;
+}
+.bazar > img{
+    padding-left: 50%;
+    transform: translateX(-50%);
+}
+.links > h3{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: gray;
+}
+.info, .links{
+    display: none;
+}
+form > img {
+    display: none;
+}
 @media screen and (max-width: 330px){
     body{
         font-size: 10px;
@@ -223,4 +326,8 @@ h2{
     header img{
         height: 20px;
     }
+    .info, .links{
+        display: none;
+    }
+    
 }

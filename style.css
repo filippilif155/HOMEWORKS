@@ -189,11 +189,20 @@
     .feat-cat3 > h2{
         font-size: 3vw;
     }
+    form > img{
+        display: none;
+    }
     .arrow1{
         position: absolute;
         display: block;
         top: 6.9vw;
         right: 16vw;
+    }
+    footer{
+        grid-template-columns: 1fr
+    }
+    .info, .links{
+        display: none;
     }
     
     }
@@ -331,7 +340,7 @@
         .first-feat-cat:hover img{
             opacity: 0.2;
         }
-        
+    
     .first-feat-cat:hover img{
         opacity: 0.2;
     }
@@ -519,12 +528,16 @@
     }
     .feat-cat3 > h2{
         font-size: 1.6vw;
-            width: 100%;
-            margin-top: 5vw;
+        width: 100%;
+        margin-top: 5vw;
+        
     }
     .blog{
         width: 100%;
         height: fit-content;
+    }
+    .blog > h3{
+        text-align: left;
     }
     .blog > p{
         text-align: left;
@@ -533,14 +546,107 @@
         display: block;
     }
     .blog{
-        height: 1.1vw;
+        height: auto;
         
     }
     .arrow1 > img{
         width: 1.3vw;
         height: 1.1vw;
-        top: 2vw;
+        top: 2.5vw;
         right: 0;
         position: absolute;
     }
+    .feat-cat4{
+        position: relative;
+        padding: 5vw 16vw;
+    }
+    .feat-cat4 > h3{
+        text-align: left;
+        font-weight: 400;
+        font-size: 2vw;
+    }
+    .arrow2{
+        display: block;
+        top: 7vw;
+        right: 16vw;
+        
+        position: absolute;
+    }
+    .arrow2 > img{
+        width: 1.3vw;
+        height: 1.1vw;
+        padding-right: 0;
+    }
+    .feat-cat4-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 3vw;
+        
+    }
+    .line{
+        height: 0.1vw;
+        background-color: rgba(128, 128, 128, 0.288);
+    }
+    .form{
+        margin: 5vw 16vw;
+        position: relative;
+    }
+    .form > h3{
+        font-size: 3vw;
+    }
+    .form > p{
+        font-size: 2vw;
+    }
+    .form > form{
+        
+        height: fit-content;
+    }
+    input[type="email"]{
+        height: 5vw;
+        font-size: 2vw;
+    }
+    input[value="SUBSCRIBE"]{
+        font-size: 2vw;
+    }
+    
+    form > img{
+        position: absolute;
+        top: 2vw;
+        right: 10vw;
+        width: 1vw;
+        height: 1vw;
+        opacity: 0;
+    }
+    input[value="SUBSCRIBE"]:focus ~ img{
+        animation: subs 2s ease;
+    }
+    @keyframes subs{
+        20%{
+            top: -2vw;
+            right: 5vw;
+            width: 10vw;
+            height: 10vw;
+            opacity: 0.5;
+            transform: rotateZ(25deg);
+        }
+        50%{
+            top: -2vw;
+            right: 5vw;
+            width: 10vw;
+            height: 10vw;
+            opacity: 1;
+        }
+        80%{
+            top: -2vw;
+            right: 5vw;
+            width: 10vw;
+            height: 10vw;
+            opacity: 0.5;
+            transform: rotateZ(-25deg);
+        }
+    }
+    .info, .links{
+        display: block;
+    }
+
 }
